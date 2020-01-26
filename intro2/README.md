@@ -14,7 +14,7 @@ Goals of this lab
   - [https://jupyter.readthedocs.io/en/latest/architecture/how\_jupyter\_ipython\_work.html](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
 
 - use of libraries Numpy, SciPy,  Pandas, matplotlib
-  - [01-introduction.ipynb](1-introduction.ipynb)
+  - [01-introduction.ipynb](01-introduction.ipynb)
 
 - manipulating data sets (structured data objects, specifically arrays search, add, remove, retrieve)
   - [https://docs.scipy.org/doc/numpy/user/quickstart.html](https://docs.scipy.org/doc/numpy/user/quickstart.html)
