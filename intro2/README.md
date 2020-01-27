@@ -21,3 +21,7 @@ Goals of this lab
 
 - File IO
   - [https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
+- Review of Python Functions (provided by Paal Kobbeltvedt)
+  - [functions.ipynb](functions.ipynb)
+
