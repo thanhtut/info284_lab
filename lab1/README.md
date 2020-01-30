@@ -11,7 +11,12 @@ Goals of this lab
 
 - Scikit Learn Overview 
   - [Overview of scikit learn](https://scikit-learn.org/stable/getting_started.html)
-  
+
+- Scikit Learn kNN Classifier and Regression
+
+  - [KNeighborsClassifier Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+
+  - [KNeighborsRegressor Documentation](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)
+
 - Supervised learning using ScikitLearn
   - [02-supervised-learning.ipynb](02-supervised-learning.ipynb)
-
