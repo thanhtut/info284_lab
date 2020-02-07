@@ -13,5 +13,7 @@ Goals of this lab
 
   - [Scikit Learn Naive Bayes Guassian, Multinomial and Bernoulli](https://scikit-learn.org/stable/modules/naive_bayes.html#gaussian-naive-bayes)
 
-- Linear Models and Naive Bayes Classifiers 
-  - [Notebook for the lab](02-linear-models-and-naive-bayes.ipynb)
+- Linear Regression Ridge and Lasso
+  - [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+  - [Ridge Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
+  - [Lasso](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html)
