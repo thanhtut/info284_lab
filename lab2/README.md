@@ -1,4 +1,4 @@
-# Lab 1 : Naives Bayes and Linear Models
+# Lab 2 : Naives Bayes and Linear Models
 
 Goals of this lab
 
