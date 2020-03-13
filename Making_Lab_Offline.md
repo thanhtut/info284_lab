@@ -1,4 +1,4 @@
-## Some leads for making lab offline ##
+## Some leads for making lab online ##
 Note: to be updated after meeting.
 
 ### Assumed plans
