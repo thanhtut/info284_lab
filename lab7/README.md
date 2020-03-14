@@ -11,6 +11,7 @@ Copy and paste the answers in each text cells at the end of the notebook [MNIST_
 
 ### Exercise 1
 Read the code from [MNIST_with_GPU.ipynb](MNIST_with_GPU.ipynb) and answer the following questions and paste the answers in the notebook you are submitting.
+Hint: You can use print(model) on the model to see the layers as well as the statements from the init() and forward() methods.
 
 1. What batch size is used for training the neural network?
 2. How many epochs the network is trained?
@@ -24,7 +25,10 @@ Read the code from [MNIST_with_GPU.ipynb](MNIST_with_GPU.ipynb) and answer the f
 Improve the performance of the the NN accuracy slightly by adjusting parameters such as number of epoches and different learning rates. Note that there wont be any drastic improvements as there is not much room to improve after 98.9% accuracy.
 
 ### Exercise 3
-Now use SGD for training the NN and compare the performance with the numbers saved in Exercise 1.7 for each epoch.
+Now use SGD for training the NN and compare the performance with the numbers saved in Exercise 1.7 for each epoch. For the documentation on the optimizer read it here [Optimizer](https://pytorch.org/docs/stable/optim.html#torch.optim.ASGD). Note that it all optimizier in PyTorch are subclasses of the same base torch.optim.Optimizer so changing optimizers can be done by just using a different constructor.
+
+Note: zeroing out the gradients is necessary [zero_grad](https://pytorch.org/docs/stable/optim.html#torch.optim.Optimizer.zero_grad) after every optimization step as PyTorch accumulates gradients on every backward pass step loss.backward(). This is necessary unless you are tranining RNN where the accumulation of gradients is part of the process.
 
 ### Exercise 4
-Training a NN is expensive, time consuming and in larger datasets it is hard to converge. Therefore after you have trained your network find a way to save the weights. After the weights are saved, reload the model from the weights saved and feed the sample here through the NN.
+Training a NN is expensive, time consuming and in larger datasets it is hard to converge. Therefore after you have trained your network find a way to save the model. After the the model is saved, you can reload the model anytime from the file. Load the model form the fle and use it to classify some sample from the training set.
+For this execise saving the weight can be done using a method provided by [save](https://pytorch.org/tutorials/beginner/saving_loading_models.html#save-load-entire-model) 
